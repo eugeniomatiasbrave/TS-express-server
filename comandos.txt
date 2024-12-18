@@ -1,0 +1,15 @@
+
+INICIALIZACION Y CONFIGURACION:
+1- inicializo express: npm init -y 
+2- inicializo con TS: tsc --init 
+3- configurar el tsConfig.js:
+  - "rootDir": "./src", 
+  - "outDir": "./dist",
+4- Express: npm i express
+5- Instalar los types de TS para express: npm i -D @types/express   como dep de desarrollo
+6- Creo/actualiza la carpeta dist en JS con: tsc  
+
+LEVANTAR EL SERVIDOR:
+7- Para levantar con node el servidor con:
+ - NODE: npm i -g ts-node si no lo tego instalado -g, sino ts-node src/server.ts
+ - NODEMON : nodemon src/server.ts , lo reconoce sin Instalar
